@@ -1,0 +1,35 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+/* size-selector */
+#size-selector {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+button {
+    margin: 0 10px;
+}
+
+
+
+
+
+/* flex-boxes */  
+#box-container {
+    width: 600px;
+    height: 600px;
+    border: 1px groove black;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    border: 1px solid black;
+    width: 25%;
+}
